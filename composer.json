@@ -1,0 +1,19 @@
+{
+    "name": "lampone/bard-style-select",
+    "autoload": {
+        "psr-4": {
+            "Lampone\\BardStyleSelect\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Bard Style Select",
+            "description": "Bard Style Select addon"
+        },
+        "laravel": {
+            "providers": [
+                "Lampone\\BardStyleSelect\\ServiceProvider"
+            ]
+        }
+    }
+}
