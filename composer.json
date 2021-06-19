@@ -1,5 +1,11 @@
 {
     "name": "lampone/bard-style-select",
+    "license": "MIT",
+    "type": "statamic-addon",
+    "require": {
+        "php": "^7.4|^8.0",
+        "statamic/cms": "^3.1.25"
+    },
     "autoload": {
         "psr-4": {
             "Lampone\\BardStyleSelect\\": "src"
@@ -15,5 +21,6 @@
                 "Lampone\\BardStyleSelect\\ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
