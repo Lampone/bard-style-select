@@ -3,7 +3,7 @@ import StyleSelectMenu from "./StyleSelectMenu";
 
 Statamic.booting(() => {
 
-    const styles = Statamic.$config.get('bard-style-selects.styles') || [];
+    const styles = Statamic.$config.get('bard-style-select.styles') || [];
 
     // filter styles for block config and create block attr change
     // issues/2340

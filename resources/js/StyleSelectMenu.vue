@@ -23,13 +23,12 @@ export default {
     data() {
         return {
             currentKey: null,
-            showOptions: false,
-            getMarkAttrs: this.editor.getMarkAttrs.bind(this.editor),
+            showOptions: false
         };
     },
     computed: {
         styles(){
-            return Statamic.$config.get('bard-style-selects.styles') || [];
+            return Statamic.$config.get('bard-style-select.styles') || [];
         }
     },
     created() {
