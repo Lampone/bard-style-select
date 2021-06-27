@@ -29,5 +29,22 @@ return [
 ];
 ```
 
+Add `styleselect` to the bard blueprint, to show at the position you want to
+```yaml
+buttons:
+  - h2
+  - h3
+  - bold
+  - italic
+  - styleselect
+  - unorderedlist
+  - orderedlist
+  - removeformat
+  - quote
+  - anchor
+  - image
+  - table
+```
+
 ## Thanks
 Thanks to https://github.com/jacksleight/bard-paragraph-style and https://github.com/xndbogdan/statamic-bard-text-color for examples on how to develop a Bard-Plugin.
